@@ -1,0 +1,41 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 15vh;
+    width: 100%;
+    background: #426127;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 30;
+}
+
+#logo {
+    height: 10vh;
+    position: absolute;
+    top: 0;
+
+}
+
+#logo img {
+    height: 135%;
+}
+
+#logout {
+    display: flex;
+    align-items: flex-end;
+    margin: 7vh 2vh 0vh 0vh;
+    right: 5px;
+    position: fixed;
+    cursor: pointer;
+    font-size: 25px;
+    color: #F5951C;
+    text-decoration: none;
+
+}
+
+
+#logout:hover {
+    color: #BCFFB9;
+}

@@ -1,0 +1,144 @@
+#messages {
+    margin-top: 0;
+    min-height: calc(100vh - 110px);
+    height: 100vh;
+    width: 100%;
+
+}
+
+#sentMsg{
+    border-radius: 20px;
+    z-index: 6;
+}
+
+#fixed{
+    position: relative;
+}
+
+.messages-container {
+
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.messages-sidebar {
+    height: 80vh;
+    width: 40vh;
+    background: #A9D969;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 0% 2% 0%;
+    margin-top: -1%;
+
+}
+
+.messages-sidebar span {
+
+    background: #F8FECB;
+}
+
+.messages-sidebar span:active {
+    background: #BCFFB9;
+}
+
+
+
+.messages-users {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    text-align: left;
+}
+
+.messages-users p{
+
+    text-align: center;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.messages-users:hover{
+    background: lightcoral;
+}
+
+.user-name,
+.user-title {
+    width: 50%;
+    margin: 0;
+
+}
+
+.user-name p,
+.user-title p {
+    width: 100%;
+    
+}
+
+
+.messages-content {
+    width: 60%;
+    transform: translate(15%, -4%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.message-title {
+    margin: 0;
+}
+
+.message-connect {
+    height: 60%;
+    /*background: bisque;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+
+}
+
+.messages-get {
+    text-align: center;
+    background: #BCFFB9;
+    height: auto;
+    border-radius: 30px;
+    float: left;
+    width: 50%;
+    padding: 1%;
+    z-index: -12;
+
+
+}
+
+.messages-send {
+    text-align: center;
+    background: #F8FECB;
+    border-radius: 30px;
+    float: right;
+    width: 50%;
+    margin: 1%;
+    padding: 1%;
+    z-index: -12;
+
+}
+
+.left-container span,
+.right-container span {
+    width: 100%;
+    height: 100%;
+    margin: 3%;
+}
+
+.userslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+}

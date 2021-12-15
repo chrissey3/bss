@@ -1,0 +1,140 @@
+#sell {
+    margin-top: 10vh;
+    width: 100%;
+    ;
+}
+
+#sell-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#addProduct {
+    position: fixed;
+    margin-bottom: 1%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F2D27E;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+#addProduct header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#addPorduct h1 {
+    margin: 0;
+}
+
+#filter-sell {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+#categoryBy {
+
+    width: 15rem;
+    height: 2.2rem;
+    border-radius: 20px;
+}
+
+#product-description {
+    width: 50em;
+    margin-left: -4%;
+    border-radius: 20px;
+    height: 10rem;
+}
+
+
+#sell-table {
+    width: 80%;
+}
+
+#divideHead {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+.close {
+    text-align: end;
+    width: 100%;
+    font-size: 4rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translate(-15px, -25px);
+    cursor: pointer;
+}
+
+#add-btn {
+    width: 180px;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    transform: translate(300px, -10px);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway';
+    border-radius: 25px;
+    background: #426127;
+    color: #ffffff;
+    border: 1px solid #426127;
+
+}
+
+#show-modal-btn {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway';
+    border-radius: 25px;
+    width: 180px;
+    height: 50px;
+    background: #426127;
+    color: #ffffff;
+    border: 1px solid #426127;
+}
+
+#add-btn:hover,
+#show-modal-btn:hover {
+    background: #F5951C;
+
+}
+
+.edit-btn, .delete-btn{
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+}
+
+.edit-btn:hover,
+.delete-btn:hover{
+    background: #BCFFB9;
+    color: #222B16;
+
+}
+
+.edit-btn{
+ margin-right: -20%;
+ background: #F5951C;
+ color: #ffffff;
+}
+
+.delete-btn{
+    margin-left: -20%;
+    background: #C94C20;
+    color: #ffffff;
+
+}

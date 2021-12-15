@@ -1,0 +1,65 @@
+:root {
+    --body_color:#ffffff;
+    --fonts_color:#222B16;
+    --nav_background:#426127;
+    --nav_color:#A9D969;
+    --nav_hover:#F5951C;
+    --drop_hover:#BCFFB9;
+    --error_border:#C94C20;
+    --side_lightbeige:#F5FDB0;
+    --form_beige:#F2D27E;
+    --form_green:#A9D969;
+    --sidebar_msg:#F8FECB;
+}
+/* ---------- general styling ---------- */
+html {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1{
+    font-family: 'Roboto',sans-serif;
+}
+
+p{
+    font-family: 'Raleway',sans-serif;
+}
+
+/* ---------- page styling ---------- */
+.page {
+    display: none;
+    color: var(--fonts_color);
+    background: var(--body_color);
+    animation: fadeIn 0.4s;
+    /* padding equals height of tabbar and topbar */
+    padding: 55px 0;
+    min-height: calc(100vh - 110px);
+
+
+}
+
+
+
+/* ---------- animation of page change ---------- */
+/* fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.4s, opacity 0.4s linear;
+}

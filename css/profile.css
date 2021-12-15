@@ -1,0 +1,36 @@
+#main-container-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#btn-update {
+    width: 150px;
+    margin-top: -7%;
+    border-radius: 40px;
+    background: #F5FDB0;
+    color: #222B16;
+    border: none;
+    z-index: 6;
+}
+
+#btn-update:hover {
+    background: #F5951C;
+    color: #ffffff;
+}
+
+#main-container-update div .parts{
+    width: 100%;
+    
+    
+}
+
+#main-container-update #form-content{
+    width: 100%;
+    height: 60vh;
+    align-self: center;
+}
